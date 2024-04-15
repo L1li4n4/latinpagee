@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+<title>index</title>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+></script>
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min
+.css">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-the
+me.min.css">
+<script
+src="https://maxcdn.9:3bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+ <style>
+    @import url('https://fonts.cdnfonts.com/css/petit');
+    </style>
+    <div style="margin: 24px;">
+    <nav class="navbar navbar-light" style="background-color: aqua;">
+    <div class="container">
+    <a class="navbar-brand" href="pagina-de-victor.html"
+    style="color: black; font-family: 'Petit', sans-serif;">INICIO</a>
+    <div class="collapse navbar-collapse"
+    id="navbarNavDropdown">
+    <ul class="nav navbar-nav">
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#"
+    id="navbarDropdownMenuLink1" data-toggle="dropdown"
+    aria-haspopup="true" aria-expanded="false">unidad 1</a>
+    <div class="dropdown-menu"
+    aria-labelledby="navbarDropdownMenuLink1">
+    <a class="dropdown-item"
+    href="perfil.html">perfil</a><br>
+    <a class="dropdown-item"
+    href="prueba.html">calculadora</a><br>
+    <a class="dropdown-item"
+    href="tienda.html">tienda parte 1</a><br>
+    </div>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#"
+    id="navbarDropdownMenuLink2" data-toggle="dropdown"
+    aria-haspopup="true" aria-expanded="false">unidad 2</a>
+    <div class="dropdown-menu"
+    aria-labelledby="navbarDropdownMenuLink2">
+    <a class="dropdown-item"
+    href="tiendaAPedido.html">Tienda a Pedido</a><br>
+    <a class="dropdown-item"
+    href="json.html">json</a><br>
+    <a class="dropdown-item"
+    href="TiendaAPedidop2.html">Tienda pedido parte2</a><br>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#"
+        id="navbarDropdownMenuLink3" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="false">unidad 3</a>
+        <div class="dropdown-menu"
+        aria-labelledby="navbarDropdownMenuLink3">
+        <a class="dropdown-item"
+        href="BaseDeDatos.html">Base de Datos</a><br>
+        <a class="dropdown-item"
+        href="peliculas.html">Películas</a><br>
+        </div>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </nav>
+        </div>
+        <style>
+        body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        }
+        .dokja {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        background: url(dokja.jpg) no-repeat center center/cover;
+        opacity: 0.5; /* Changed opacity to decimal value */
+        left: 100px;
+        top: 50px;
+        }
+        .texto-presentacion {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+color: darkmagenta;
+text-align: center;
+text-shadow: 1px 1px 2px black;
+}
+.cuadrado {
+background-color: red;
+position: absolute;
+border-radius: 100%;
+}
+.ojos {
+width: 50px;
+height: 100px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+}
+/* Removed incomplete or unused classes */
+.ellipse { /* Corrected class name */
+float: left;
+width: 150px;
+height: 150px;
+margin: 20px;
+shape-outside: ellipse(20% 50%);
+clip-path: ellipse(20% 50%);
+background-color: black;
+}
+.pierna{
+width: 50px;
+height: 100px;
+background-color: red;
+border-radius: 50%;
+position: absolute;
+}
+.pierna_1{
+width: 50px;
+height: 100px;
+background-color:black;
+border-radius: 50%;
+position: absolute;
+}
+.brazo{
+width: 50px;
+height: 80px;
+background-color: red;
+border-radius: 50%;
+position: absolute;
+transform: rotate(45deg);
+}
+.brazo2{
+width: 50px;
+height: 80px;
+background-color: red;
+border-radius: 50%;
+position: absolute;
+transform: rotate(130deg);
+}
+.brazo_1{
+width: 50px;
+height: 80px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+transform: rotate(45deg);
+}
+.brazo_2{
+width: 50px;
+height: 80px;
+background-color: black;
+border-radius: 50%;
+position: absolute;
+transform: rotate(130deg);
+}
+.contenedor {
+position: relative;
+width: 110px;
+height: 100px;
+}
+.cintura {
+position: absolute;
+top: 50%;
+left: 3px;
+width: 100%;
+height: 10px;
+background-color: black;
+}
+.mangas {
+position: absolute;
+top: 11px;
+left: 5px;
+width: 44px;
+height: 6px;
+background-color:white;
+transform: rotate(45deg);
+}
+.contenedor_c {
+position: relative;
+width: 300px; /* Ancho del contenedor */
+height: 300px; /* Altura del contenedor */
+border: 1px solid transparent; /* Añadimos un borde al contenedor
+para visualización */
+}
+.circulo {
+position: absolute;
+top: 50%; /* Posición vertical del círculo */
+left: 50%; /* Posición horizontal del círculo */
+transform: translate(-50%, -50%); /* Centra el círculo */
+width: 205px; /* Ancho del círculo */
+height: 203px; /* Altura del círculo */
+background-color: black; /* Color de fondo del círculo */
+border-radius: 50%; /* Hace que los bordes formen un círculo */
+}
+.traje {
+width: 90px; /* Ancho del cuadrado */
+height: 90px; /* Altura del cuadrado */
+width: 110px;
+height: 100px;
+}
+.cintura {
+position: absolute;
+top: 50%;
+left: 3px;
+width: 100%;
+height: 10px;
+background-color: black;
+}
+.mangas {
+position: absolute;
+top: 11px;
+left: 5px;
+width: 44px;
+height: 6px;
+background-color:white;
+transform: rotate(45deg);
+}
+.contenedor_c {
+position: relative;
+width: 300px; /* Ancho del contenedor */
+height: 300px; /* Altura del contenedor */
+border: 1px solid transparent; /* Añadimos un borde al contenedor
+para visualización */
+}
+.circulo {
+position: absolute;
+top: 50%; /* Posición vertical del círculo */
+left: 50%; /* Posición horizontal del círculo */
+transform: translate(-50%, -50%); /* Centra el círculo */
+width: 205px; /* Ancho del círculo */
+height: 203px; /* Altura del círculo */
+background-color: black; /* Color de fondo del círculo */
+border-radius: 50%; /* Hace que los bordes formen un círculo */
+}
+.traje {
+width: 90px; /* Ancho del cuadrado */
+height: 90px; /* Altura del cuadrado */
+background-color:gray;/*color de fondo del cuadrado*/
+position: absolute; /* Posicionamiento absoluto */
+top: 50px; /* Posición desde la parte superior */
+left: 50px; /* Posición desde la izquierda */
+}
+.contenedor_absoluto{
+position: relative;
+width: 200px; /* Ancho del contenedor */
+height: 200px; /* Altura del contenedor */
+}
+.contenedor_triangulo {
+position: relative;
+width: 200px; /* Ancho del contenedor */
+height: 200px; /* Altura del contenedor */
+}
+.triangulo {
+width: 0;
+height: 0;
+border-left: 30px solid transparent; /* Lado izquierdo del
+triángulo */
+border-right: 35px solid transparent; /* Lado derecho del triángulo
+*/
+border-bottom: 29px solid gray; /* Base del triángulo */
+position:absolute; /* Posicionamiento absoluto */
+top: 50px; /* Posición desde la parte superior */
+left: 50px; /* Posición desde la izquierda */
+transform: rotate(90deg);
+}
+.linea {
+position: absolute;
+top: 330px; /* Ajusta la posición vertical según necesites */
+left: 192px; /* Ajusta la posición horizontal según necesites */
+width: 115px; /* Longitud de la línea */
+height: 4px; /* Grosor de la línea */
+background-color: black; /* Color de la línea */
+}
+.linea_2 {
+position: absolute;
+top: 290px; /* Ajusta la posición vertical según necesites */
+left: 200px; /* Ajusta la posición horizontal según necesites */
+width: 70px; /* Longitud de la línea */
+height: 15px; /* Grosor de la línea */
+background-color: black; /* Color de la línea */
+transform: rotate(90deg);
+}
+.linea_3 {
+position: absolute;
+top: 290px; /* Ajusta la posición vertical según necesites */
+left: 230px; /* Ajusta la posición horizontal según necesites */
+width: 70px; /* Longitud de la línea */
+height: 15px; /* Grosor de la línea */
+background-color: black; /* Color de la línea */
+transform: rotate(90deg);
+}
+.medio-circulo {
+position: absolute;
+top: 260px; /* Ajusta la posición vertical según necesites */
+left: 201px; /* Ajusta la posición horizontal según necesites */
+width: 100px; /* Diámetro del círculo */
+height: 50px; /* La mitad de la altura del círculo */
+background-color: black; /* Color del círculo */
+border-radius: 100px 100px 0 0; /* Define el radio de las esquinas
+(en orden: arriba-izquierda, arriba-derecha, abajo-derecha,
+abajo-izquierda) */
+transform: rotate(180deg);
+}
+.medio-circulo_b1 {
+position: absolute;
+top: 257px; /* Ajusta la posición vertical según necesites */
+left: 268px; /* Ajusta la posición horizontal según necesites */
+width: 52px; /* Diámetro del círculo */
+height: 50px; /* La mitad de la altura del círculo */
+background-color: black; /* Color del círculo */
+border-radius: 100px 100px 0 0; /* Define el radio de las esquinas
+(en orden: arriba-izquierda, arriba-derecha, abajo-derecha,(en orden: arriba-izquierda, arriba-derecha, abajo-derecha,
+abajo-izquierda) */
+transform: rotate(300deg);
+}
+.medio-circulo_b2 {
+position: absolute;
+top: 255px; /* Ajusta la posición vertical según necesites */
+left: 183px; /* Ajusta la posición horizontal según necesites */
+width: 49px; /* Diámetro del círculo */
+height: 50px; /* La mitad de la altura del círculo */
+background-color: black; /* Color del círculo */
+border-radius: 100px 100px 0 0; /* Define el radio de las esquinas
+(en orden: arriba-izquierda, arriba-derecha, abajo-derecha,
+abajo-izquierda) */
+transform: rotate(-315deg);
+}
+.linea-con-divisiones {
+position: absolute;
+top: 250px; /* Ajusta la posición vertical según necesites */
+left: 150px; /* Ajusta la posición horizontal según necesites */
+width: 50px; /* Longitud total de la línea */
+height: 12px; /* Grosor de la línea */
+background-color: black; /* Color de la línea */
+display: flex; /* Utilizamos flexbox para posicionar las divisiones*/
+transform: rotate(35deg);
+}
+.division {
+width: 10px; /* Ancho de cada división */
+height: 100%; /* Altura igual a la línea */
+background-color:gray; /* Color de las divisiones */
+}
+.linea-con-divisiones2 {
+position: absolute;
+top: 250px; /* Ajusta la posición vertical según necesites */
+left: 298px; /* Ajusta la posición horizontal según necesites */
+width: 50px; /* Longitud total de la línea */
+height: 12px; /* Grosor de la línea */
+background-color: black; /* Color de la línea */
+display: flex; /* Utilizamos flexbox para posicionar las divisiones*/
+transform: rotate(140deg);
+}
+.division2 {
+width: 10px; /* Ancho de cada división */
+height: 100%; /* Altura igual a la línea */
+background-color:gray; /* Color de las divisiones */
+}
+</style>
+</head>
+<body>
+<div class="dokja">
+<div class="texto-presentacion">
+<h1>Mi primer dibujo en CSS</h1> <!-- Corrected CSS
+capitalization -->
+<h2>Diseñado por: Liliana Guerrero </h2>
+<p>De la especialidad programación de 4 semestre de la
+escuela cetis</p> <!-- Corrected spelling of "programación" -->
+   </div>
+</div>
+<div class="contenedor_absoluto" style= "left:-90px ; top: -330px;">
+<div class="contenedor_c">
+<div class="circulo" style="left: 248px; top: 168px;"></div>
+</div>
+<div class="cuadrado" style="left: 150px; top: 70px; width: 200px;
+height: 200px;"></div> <!-- Updated size and position -->
+<div class="cuadrado" style="left: 200px; top: 250px; width: 100px;
+height: 100px;"></div> <!-- Updated size and position -->
+<div class="ojos" style="left: 270px; top: 120px;"></div> <!--
+Adjusted eye position -->
+<div class="ojos" style="left: 180px; top: 120px;"></div> <!--
+Adjusted eye position -->
+<div class="cuadrado" style="left: 200px; top: 170px; width: 20px;
+height: 20px; background-color: rgb(255, 255, 255);"></div>
+<div class="cuadrado" style="left: 277px; top: 170px; width: 20px;
+height: 20px; background-color: white;"></div> <!-- Adjusted position
+-->
+<div class="pierna_1" style="left: 193px;top: 284px; "></div>
+<div class="pierna" style="left: 195px;top: 280px; "></div>
+<div class="pierna_1" style="left: 258px;top: 284px; "></div>
+<div class="pierna" style="left: 256px;top: 280px; "></div>
+<div class="brazo_1" style="left: 173px; top: 247px ;" ></div>
+<div class="brazo" style="left: 177px; top: 245px ;" ></div>
+<div class="brazo_2" style="left: 281px; top: 247px ;" ></div>
+<div class="brazo2" style="left: 277px; top: 245px ;" ></div>
+<div class="contenedor">
+<div class="mangas" style="left: 168px; top: -4px;
+;background-color: rgb(255, 255, 255); "></div>
+<div class="mangas" style="left: 294px; top: -4px;transform:
+rotate(120deg) ;background-color: rgb(255, 255, 255); "></div>
+</div>
+<div class="linea"></div>
+<div class="linea_2"></div>
+<div class="linea_3"></div>
+<div class="medio-circulo"></div>
+<div class="medio-circulo_b1"></div>
+<div class="medio-circulo_b2"></div>
+<div class="linea-con-divisiones">
+<div class="division"></div>
+<div class="division"></div>
+<div class="division"></div>
+<!-- Añade más divisiones según sea necesario -->
+</div>
+<div class="linea-con-divisiones2">
+<div class="division2"></div>
+<div class="division2"></div>
+<div class="division2"></div>
+<!-- Añade más divisiones según sea necesario -->
+    </div>
+   </div>
+  </div>
+</body>
+</html>

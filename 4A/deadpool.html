@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadpool</title>
+</head>
+<body>
+    <style>
+        body html{
+            margin: 0;
+            padding: 0;
+            width: 0;
+            height: 100%;
+               }
+        .deadpool{
+            position: relative;
+            width: 50%;
+            width: 50%;
+            background: url("deadpool.png") no-repeat center/cover;
+            opacity: 50%;
+            left: 100px;
+            top: 50px;
+        }
+        .texto-presentacion{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: red;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+        }
+        .cuadrado{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border: 2px solid rgb(0, 0, 0);
+            position: absolute;
+        }
+        .ojos{
+            display: block;
+            width: 50px;
+            height: 100px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 60% 60% 60% 60% / 60% 60% 60% 60%;
+            position: relative;
+        }
+        .pies{
+            display: block;
+            width: 50px;
+            height: 80px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 60% 60% 60% 60% / 60% 60% 60% 60%;
+            position: relative;
+        }
+        .brazos{
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 50% 50% 50% 50% / 60% 60% 60% 60%;
+            position: relative;
+        }
+        .triangulo{
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 80% solid rgb(0, 0, 0);
+        }
+        .tranguloizquierda{
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-right: 40px solid rgb(255, 255, 255);
+            border-bottom: 40px solid transparent;
+        }
+        .ellipse{
+            position: relative;
+            width: 130px;
+            height: 125px;
+            margin: 100x;
+            shape-outside: ellipse(80% 50%);
+            clip-path: ellipse(25% 50%);
+            background-color: black;
+            border: 0px solid white;
+
+        }
+
+    </style>
+    <div class="deadpool"></div>
+    <div class="texto-presentacion">
+        <h1>Mi primer dibujo en CSS</h1>
+        <h2>Diseno hecho por: Liliana Guerrero</h2>
+        <p>De la especialidad de programacion de 4 semestre de la escuela Ranchetis 131</p>
+    </div>
+<div class="cuadrado" style="left: 90px; top:61px; border-radius: 48%;"></div>
+<div class="cuadrado" style="width: 165px; height:210px; left: 110px; top: 250px; border-radius: 50%;"></div>
+<div class="ojos" style="top: 100px; left: 225px;"></div>
+<div class="ojos" style="top: 0px; left: 160px;"></div>
+<div class="pies" style="top: 170px; left: 200px;"></div>
+<div class="pies" style="top: 90px; left: 120px;"></div>
+<div class="brazos" style="top: -77px; left: 210px;"></div>
+<div class="brazos" style="top: -125px; left: 110px;"></div>
+<div class="cuadrado" style="height: 20px; width: 20px; left: 190px; top:150px; border-radius: 50%;
+top:170px; border-radius: 50%; background-color: white;"></div>
+<div class="cuadrado" style="height: 20px; width: 20px; left: 260px; top:150px; border-radius: 50%;
+top:170px; border-radius: 50%; background-color: white;"></div>
+
+</body>
+</html>
